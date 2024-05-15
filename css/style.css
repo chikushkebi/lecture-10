@@ -1,0 +1,122 @@
+header {
+  padding-top: 24px;
+  padding-bottom: 18px;
+}
+.conteiner {
+  margin: 0 auto;
+  max-width: 1242px;
+  width: 95%;
+}
+.flexdiv1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 50px;
+}
+ul li a {
+  color: #636060;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.fa-bars {
+  font-size: 25px;
+  display: none;
+}
+.s-1 {
+  height: 606px;
+  background-image: url("../images/backgroundimg.png");
+  background-color: rgb(79, 79, 206);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 84px;
+}
+.textwrapper h1 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 79px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 31px;
+}
+.textwrapper h2 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.flexdiv2 {
+  display: flex;
+  justify-content: space-between;
+}
+.div1 {
+  width: 235px;
+}
+.div1 h1,
+p {
+  color: #636060;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.div1 h2 {
+  color: #010101;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 37px;
+}
+.div1 h1 {
+  padding-bottom: 9px;
+}
+.div2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 29px;
+  row-gap: 56px;
+  max-width: 970px;
+  width: 100%;
+}
+.div2 div {
+  width: 286px;
+}
+.div2 div img {
+  padding-bottom: 23px;
+}
+.div2 div h1 {
+  padding-bottom: 9px;
+  color: #343232;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.div2 div p {
+  color: #636060;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
